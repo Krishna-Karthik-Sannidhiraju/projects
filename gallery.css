@@ -1,0 +1,450 @@
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+.background{
+    background-color: green;
+    height: 24%;
+}
+.banner{
+    background-image: url('https://speedsolution.in/Farm2Market/images/banner-image.jpg');
+    width: 99.3%;
+    height: 60%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-160px);
+
+    
+}
+.banner1{
+    
+    transform:translate(50px,-300px);
+    font-size: 5rem;
+    
+}
+header{
+    background-color: rgb(8, 82, 8);
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top: 0;
+   z-index: 999;
+    
+    
+
+}
+header .a{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+header img{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+header span{
+    font-size: .8rem;
+    color: white;
+}
+header .span{
+    color: rgb(25, 237, 25);
+}
+header>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+header:nth-child(1)>p
+{
+    font-size: 0.8rem;
+color:rgb(95, 240, 95);
+}
+header span{
+    font-size: .8rem;
+    color: white;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-170px);
+    font-size: 2rem;
+   
+}
+.b3>p{
+    display: inline-block;
+    transform: translate(450px,-143px);
+    line-height: 1.6;
+
+}
+
+.gallery{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-areas: 'a b c'
+    'd e f'
+    'g h i';
+    gap: 10px;
+
+    
+
+}
+
+.gallery img{
+    width: 100%;
+    height: 100%;
+}
+.item1{
+    grid-area: 'a';
+}
+.item2{
+    grid-area: 'b';
+}
+.item3{
+    grid-area: 'c';
+}
+.item4{
+    grid-area: 'd';
+}
+.item5{
+    grid-area: 'e';
+}
+.item6{
+    grid-area: 'f';
+}
+.item7{
+    grid-area: 'g';
+}
+.item8{
+    grid-area: 'h';
+}
+.item9{
+    grid-area: 'i';
+}
+.banner-image2content{
+    background-image:url('https://speedsolution.in/Farm2Market/images/footer_bg.png') ;
+    width: 98%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(100px);
+    
+    
+   
+}
+.banner-image2content .item{
+    color: white;
+    transform: translateY(100p);
+
+}
+.banner-image2content .item .item4{
+    color: white;
+    transform: translateY(400px);
+
+}
+
+
+.banner-image2content .item4 input{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+.banner-image2content .item4 button{
+    color: white;
+    background: linear-gradient(to right, #0f7404, #5cb917);
+    z-index: 1;
+    overflow: hidden;
+    border: 0.2rem solid var(--bg-white);
+    border-radius: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.background-three{
+    background-color: greenyellow;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+    
+}
+.background-three>p{
+    transform: translateY(-20px);
+}
+.item4 span{
+    transform: translateX(30px);
+}
+.face{
+    margin-top: 20px;
+    margin-right: 4px;
+    transform: translateX(30px);
+    display: inline-block;
+    border: 1px solid white;
+    width: 20px;
+    border-radius: 50%;
+}
+.face:hover{
+    background-color: green;
+    transform: translateX(100px);
+
+    
+}
+.face i{
+    margin: 1px;
+}
+/* Tablet View (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 768px) {
+    /* Header */
+    header {
+        height: 15%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .a {
+        width: 60%;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    header img {
+        width: 25%;
+        margin: 5px;
+    }
+
+    header a {
+        font-size: 1rem;
+    }
+
+    header p {
+        font-size: 0.9rem;
+    }
+
+    /* Banner */
+    .banner {
+        height: 50%;
+        transform: translateY(-100px);
+    }
+
+    .banner1 {
+        transform: translate(30px, -250px);
+        font-size: 3rem;
+    }
+
+    /* About Section */
+    .about-image, .about-image1 {
+        display: flex;
+        gap: 60px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .about-image img, .about-image1 img {
+        width: 40%;
+        height: auto;
+        transform: translate(20px, -20px);
+    }
+
+    .about-content, .about-image1 .about-content1 {
+        width: 45%;
+    }
+
+    .about-image p, .about-image1 p {
+        margin-top: 1rem;
+    }
+
+    /* Gallery Section */
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    /* Footer */
+    .banner-image2content {
+        flex-direction: column;
+        padding: 10px;
+        background-repeat: no-repeat;
+
+    }
+
+    .banner-image2content .item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .banner-image2content .item4 input {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    .banner-image2content .item4 button {
+        font-size: 1rem;
+        padding: 0.8rem 1.8rem;
+    }
+
+    .icons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .face {
+        margin: 10px;
+        width: 25px;
+    }
+
+    .face i {
+        font-size: 1rem;
+    }
+}
+
+/* Mobile View (Below 768px) */
+@media (max-width: 767px) {
+    /* Header */
+    header {
+        height: 13%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    header .a {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header img {
+        width: 40%;
+        margin: 5px;
+    }
+
+    header a {
+        font-size: 0.9rem;
+    }
+
+    header p {
+        font-size: 0.7rem;
+    }
+
+    /* Banner */
+    .banner {
+        height: 45%;
+        transform: translateY(-80px);
+    }
+
+    .banner1 {
+        transform: translate(20px, -230px);
+        font-size: 2.5rem;
+    }
+
+    /* About Section */
+    .about-image, .about-image1 {
+        display: flex;
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-image img, .about-image1 img {
+        width: 80%;
+        height: auto;
+        transform: translate(0, -10px);
+    }
+
+    .about-content, .about-image1 .about-content1 {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .about-image p, .about-image1 p {
+        font-size: 1rem;
+        line-height: 1.6;
+    }
+
+    /* Gallery Section */
+    .gallery {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .gallery img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Footer */
+    .banner-image2content {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        background-repeat: no-repeat;
+
+    }
+
+    .banner-image2content .item {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .banner-image2content .item4 input {
+        font-size: 16px;
+        padding: 8px;
+    }
+
+    .banner-image2content .item4 button {
+        font-size: 1rem;
+        padding: 0.6rem 1.5rem;
+    }
+
+    .icons {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .face {
+        margin: 5px;
+        width: 30px;
+    }
+
+    .face i {
+        font-size: 1.2rem;
+    }
+
+    .background-three {
+        height: 20%;
+    }
+}
+
+

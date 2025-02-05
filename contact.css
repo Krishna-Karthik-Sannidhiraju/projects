@@ -1,0 +1,441 @@
+body,html{
+    height: 100%;
+    width: 100%;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scrollbar-width: none;
+}
+.background{
+    background-color: green;
+    height: 24%;
+}
+.banner{
+    background-image: url('https://speedsolution.in/Farm2Market/images/banner-image.jpg');
+    width: 99.3%;
+    height: 60%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transform: translateY(-160px);
+
+    
+}
+.banner1{
+    
+    transform:translate(50px,-300px);
+    font-size: 5rem;
+    
+}
+header{
+    background-color: rgb(8, 82, 8);
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    top:0;
+   z-index: 999;
+    
+    
+
+}
+header>a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+header img{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+header img{
+    width: 20%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 10px;
+}
+header .a{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+header span{
+    font-size: .8rem;
+    color: white;
+}
+header .span{
+    color: rgb(25, 237, 25);
+}
+header:nth-child(1)>p
+{
+    font-size: 0.8rem;
+color:rgb(95, 240, 95);
+}
+header span{
+    font-size: .8rem;
+    color: white;
+}
+.b2{
+    display: flex;
+    justify-content: center;
+    transform: translateY(-170px);
+    font-size: 3rem;
+    font-weight: 300;
+   
+}
+
+.b3>p{
+    display: inline-block;
+    transform: translate(440px,-143px);
+
+}
+
+.form1{
+    
+    display: flex;
+    width: 100%;
+    height: 60%;
+
+    justify-content: space-around;
+    border: 1px solid white;
+    background-color: aliceblue;
+
+}
+.form1 form{
+    padding: 7px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    
+}
+.form1 input{
+    padding: 7px;
+    border: 1px solid green;
+    color: black;
+    border-radius: 5px;
+    font-size: 1.0rem;
+}
+.form1 .input{
+    width: 210%;
+
+
+}
+.form1 button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: rgb(5, 161, 5);
+    color: white;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 1.3rem;
+}
+.call{
+    display: flex;
+   
+    flex-direction: column;
+    
+    
+}
+.call1{
+    display: flex;
+    transform: translate(-100px,50px);
+    
+}
+.call2{
+    display: flex;
+    transform: translate(-90px,50px);
+    
+}
+.call1>p{
+    transform: translateY(20px);
+}
+.call2>p{
+    transform: translateY(20px);
+}
+.call i{
+   font-size: 4.5rem;
+}
+
+.banner-image2content{
+    background-image:url('https://speedsolution.in/Farm2Market/images/footer_bg.png') ;
+    width: 98%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transform: translateY(100px);
+    
+    
+   
+}
+.banner-image2content .item{
+    color: white;
+    transform: translateY(100p);
+
+}
+.banner-image2content .item .item4{
+    color: white;
+    transform: translateY(400px);
+
+}
+
+
+.banner-image2content .item4 input{
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    margin: 18px;
+}
+.banner-image2content .item4 button{
+    color: white;
+    background: linear-gradient(to right, #0f7404, #5cb917);
+    z-index: 1;
+    overflow: hidden;
+    border: 0.2rem solid var(--bg-white);
+    border-radius: 3.5rem;
+    text-transform: uppercase;
+    padding: 1rem 2rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.background-three{
+    background-color: greenyellow;
+    width: 100%;
+    height: 24%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    
+    
+}
+.background-three>p{
+    transform: translateY(-20px);
+}
+.item4 span{
+    transform: translateX(30px);
+}
+.face{
+    margin-top: 20px;
+    margin-right: 4px;
+    transform: translateX(30px);
+    display: inline-block;
+    border: 1px solid white;
+    width: 20px;
+    border-radius: 50%;
+}
+.face:hover{
+    background-color: green;
+    transform: translateX(100px);
+    transition:0.4s ease ;
+    
+}
+.face i{
+    margin: 1px;
+}
+@media (max-width: 768px) {
+    /* Header adjustments */
+    header img {
+        width: 15%;
+    }
+
+    header a {
+        font-size: 0.7rem;
+    }
+
+    .banner1 {
+        font-size: 3rem;
+        transform: translate(30px, -250px);
+    }
+
+    .b2 {
+        font-size: 2rem;
+        transform: translateY(-120px);
+    }
+
+    .b3 p {
+        font-size: 1rem;
+        transform: translate(30px, -100px);
+    }
+
+    .form1 {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .form1 form {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .form1 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form1 .input {
+        width: 100%;
+    }
+
+    .call1, .call2 {
+        transform: translate(0, 10px);
+    }
+
+    .banner-image2content {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+        background-repeat: no-repeat;
+    }
+
+    .banner-image2content .item {
+        margin-bottom: 20px;
+    }
+
+    .banner-image2content .item4 input {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .banner-image2content .item4 button {
+        width: 100%;
+        font-size: 1.2rem;
+        padding: 12px;
+    }
+
+    .background-three {
+        height: auto;
+        padding: 10px;
+    }
+
+    .face {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+
+    .background-three > p {
+        font-size: 1rem;
+
+    }
+}
+@media (max-width: 480px) {
+    /* Header adjustments */
+    header img {
+        width: 12%;
+    }
+
+    header a {
+        font-size: 0.6rem;
+    }
+
+    .banner1 {
+        font-size: 2.5rem;
+        transform: translate(20px, -200px);
+    }
+
+    .b2 {
+        font-size: 1.8rem;
+        transform: translateY(-100px);
+    }
+
+    .b3 p {
+        font-size: 1rem;
+        transform: translate(10px, -80px);
+    }
+
+    .form1 {
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        height: auto;
+        justify-content: flex-start;
+    }
+
+    .form1 form {
+        width: 100%;
+        grid-template-columns: 1fr;
+    }
+
+    .form1 input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .form1 .input {
+        width: 100%;
+    }
+
+    .form1 button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .call1, .call2 {
+        transform: translate(0, 10px);
+    }
+
+    .banner-image2content {
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+        background-repeat: no-repeat;
+    }
+
+    .banner-image2content .item {
+        margin-bottom: 20px;
+    }
+
+    .banner-image2content .item4 input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .banner-image2content .item4 button {
+        width: 100%;
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .background-three {
+        height: auto;
+        padding: 10px;
+    }
+
+    .face {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+
+    .background-three > p {
+        font-size: 0.9rem;
+    }
+}
+
